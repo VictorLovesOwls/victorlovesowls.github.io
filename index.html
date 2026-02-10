@@ -2,131 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Victor's Storm Store</title>
+    <title>Victor's Storm Store | Official Site</title>
     <style>
-        body { background: #050505; color: #00ff41; font-family: 'Ubuntu Mono', monospace; padding: 20px; }
-        .container { max-width: 800px; margin: auto; border: 1px solid #00ff41; padding: 20px; box-shadow: 0 0 20px #00ff4122; }
-        header { border-bottom: 2px solid #00ff41; margin-bottom: 20px; padding-bottom: 10px; }
+        /* MAIN TERMINAL THEME */
+        body { background: #050505; color: #00ff41; font-family: 'Ubuntu Mono', monospace; padding: 20px; line-height: 1.6; }
+        .container { max-width: 800px; margin: auto; border: 1px solid #00ff41; padding: 20px; box-shadow: 0 0 20px #00ff4122; background: #000; }
+        header { border-bottom: 2px solid #00ff41; margin-bottom: 20px; padding-bottom: 10px; text-align: center; }
+        
+        /* CARDS */
         .card { background: #111; border: 1px solid #333; margin: 15px 0; padding: 20px; border-radius: 5px; }
-        .card:hover { border-color: #00ff41; }
-        .btn { background: #00ff41; color: #000; text-decoration: none; padding: 10px 20px; font-weight: bold; display: inline-block; border-radius: 3px; }
-        .matrix-link { color: #8a2be2; font-weight: bold; text-decoration: none; border: 1px solid #8a2be2; padding: 5px 10px; }
-        code { color: #ff8800; }
+        .card:hover { border-color: #00ff41; box-shadow: 0 0 10px #00ff4144; }
+        h1, h2, h3 { color: #00ff41; text-transform: uppercase; }
+        
+        /* BUTTONS */
+        .btn { background: #00ff41; color: #000; text-decoration: none; padding: 10px 20px; font-weight: bold; display: inline-block; border-radius: 3px; margin-top: 10px; }
+        .btn:hover { background: #fff; box-shadow: 0 0 15px #00ff41; }
+        .matrix-link { color: #8a2be2; font-weight: bold; text-decoration: none; border: 1px solid #8a2be2; padding: 5px 10px; display: inline-block; }
+        
+        /* SECTIONS */
+        .guide-box { border: 1px dashed #00ff41; padding: 20px; margin-top: 30px; background: #0a0a0a; }
+        .proxy-box { border: 2px solid #ff0055; color: #00ff00; padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 0 0 15px #ff0055; background: #111; }
+        
+        code { color: #ff8800; background: #222; padding: 2px 4px; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <header>
-        <h1>⚡ VICTOR-DELGASHEV .deb kids store</h1>
-        <p>The #1 Linux Store for Kids | Built on high end laptop</p>
+        <h1>⚡ THE STORM STORE</h1>
+        <p>Official GitHub Repository | #1 Linux Store for Kids</p>
     </header>
+
+    <div class="proxy-box">
+        <h2 style="color: #ff0055; margin-top: 0;">🔒 School Access (Bypass)</h2>
+        <p>If this GitHub page gets blocked at school, use this trick:</p>
+        <ol>
+            <li>Go to <b>Google Translate</b> -> Click <b>Websites</b>.</li>
+            <li>Paste this URL: <code>victorlovesowls.github.io</code></li>
+            <li>Select <b>English</b> and hit the blue arrow.</li>
+        </ol>
+    </div>
 
     <div class="card">
         <h2>🗣️ Talking Terminal (TTS)</h2>
-        <p>Our flagship 77MB package. Make Linux speak. Enter amytalk into your terminal and then enter your input.</p>
+        <p>Our flagship 77MB package. Make Linux speak! Enter <code>amytalk</code> into your terminal after installing.</p>
         <a href="https://drive.proton.me/urls/9ZHCH73VQR#7QoHqGtzmAcy" target="_blank" class="btn">DOWNLOAD ENGINE</a>
     </div>
 
     <div class="card">
         <h2>🌀 Terminal Storm Collection</h2>
-        <p>Rickstorm, StarStorm, MissionStorm, and more! To use enter the name of the storm into your terminal (Like starstorm for StarStorm, rickstorm for RickStorm, etc.)</p>
+        <p>Rickstorm, StarStorm, and more! Run them by typing their names (e.g., <code>starstorm</code>).</p>
         <a href="https://drive.proton.me/urls/ZXV1PFPTTW#sLQWP48VEnFl" target="_blank" class="btn">DOWNLOAD STORMS</a>
     </div>
 
     <div class="card" style="border-color: #8a2be2;">
         <h3>💬 Matrix Community</h3>
         <p>Join the encrypted chat room for support and fun.</p>
-        <a href="https://matrix.to/#/#victors-kids-debian-store:matrix.org" target="_blank" class="matrix-link">JOIN ROOM</a>
+        <a href="https://matrix.to/#/#victors-kids-debian-store:matrix.org" target="_blank" class="matrix-link">JOIN ENCRYPTED CHAT</a>
     </div>
+
+    <section class="guide-box">
+        <h2>💻 HOW TO RUN ON CHROMEBOOKS</h2>
+        <p>Works on any Chromebook with Linux support:</p>
+        <ol>
+            <li>Settings ⚙️ > Advanced > Developers > <b>Turn On Linux</b>.</li>
+            <li>Set Disk to <b>2GB or 3GB</b>.</li>
+            <li>In the terminal, type: <code>sudo apt update</code></li>
+            <li>Right-click my <code>.deb</code> files in your Files app and choose <b>"Install with Linux"</b>.</li>
+        </ol>
+        
+        <div style="background: #330000; border: 1px solid red; padding: 10px; margin-top: 10px;">
+            <strong style="color: #ff5555;">Admin Blocked?</strong> Ask your tech teacher to enable "Crostini" for Debian learning!
+        </div>
+    </section>
 
     <footer>
-        <p>Install Method: Double click on the .deb package!</p>
-        <p style="font-size: 0.7em; color: #444;">We use Matrix for pure privacy, where as discord owns your data. Anything you send us goes to EE2E Matrix so your school can't see the content of your message. </p>
+        <p style="text-align: center; color: #444; font-size: 0.8em; margin-top: 20px;">
+            Victor D. | Grade 7 Junior Linux Developer | Privacy First
+        </p>
     </footer>
 </div>
-<section id="chromebook-guide" style="border: 1px dashed #00ff41; padding: 20px; margin-top: 30px; background: #0a0a0a;">
-    <h2 style="color: #fff; text-shadow: 0 0 5px #00ff41;">💻 HOW TO RUN ON CHROMEBOOKS (CROSTINI)</h2>
-    <p>Even a 4GB RAM Celeron Chromebook can run my Storms! Follow these steps:</p>
 
-    <ol style="text-align: left; line-height: 1.6;">
-        <li>At the bottom right of your Chromebook, select the <b>Time</b>.</li>
-        <li>Select <b>Settings</b> (the gear icon ⚙️).</li>
-        <li>On the left sidebar, select <b>Advanced</b>, then <b>Developers</b>.</li>
-        <li>Next to "Linux development environment," select <b>Turn On</b>.</li>
-        <li>Follow the on-screen instructions. 
-            <ul>
-                <li><i>Tip:</i> For the Disk Size, <b>2GB or 3GB</b> is plenty for my Programs!</li>
-                <li><i>Username:</i> Use something short (like <code>victor</code>).</li>
-            </ul>
-        </li>
-        <li>A terminal window will open automatically. Type <code>sudo apt update</code> to start.</li>
-    </ol>
-
-    
-
-    <div style="background: #330000; border: 1px solid red; padding: 15px; margin-top: 15px; border-radius: 5px;">
-        <h4 style="margin-top: 0; color: #ff5555;">⚠️ MANAGED BY YOUR ORGANIZATION?</h4>
-        <p style="font-size: 0.9em; color: #eee;">
-            If the "Linux" option is missing or says <b>"This setting is managed by your administrator,"</b> 
-            it means your school board has locked it. To unlock it, show your Tech Teacher this site and ask them to 
-            <b>enable Crostini (Linux)</b> for your account so you can learn Debian!
-        </p>
-    </div>
-
-    <div style="margin-top: 20px; font-style: italic; color: #888;">
-        Once enabled, just download my <code>.deb</code> files, right-click them in the <b>Files app</b>, 
-        and select <b>"Install with Linux"</b>.
-    </div>
-    <title>Victor D. | Junior Linux Developer</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; background: #f4f4f9; }
-        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .project-card { border: 1px solid #ddd; padding: 15px; border-radius: 5px; margin-top: 20px; }
-        .btn { background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
-        .btn:hover { background: #2980b9; }
-    </style>
-    <div class="container">
-        <h1>Victor's Development Hub</h1>
-        <p>Welcome! I am a Grade 7 student specializing in <b>Debian Linux</b> and <b>Open Source software</b>.</p>
-        
-        <div class="project-card">
-            <h3>🌩️ The Storm Store (Main Repository)</h3>
-            <p>My primary project featuring custom terminal visual effects and .deb packages for Linux Mint and ChromeOS.</p>
-            <a href="https://victor-delgashev.neocities.org/" class="btn">Enter Main Store</a>
-        </div>
-
-        <div class="project-card">
-            <h3>🛠️ Resource Links</h3>
-            <ul>
-                <li><a href="https://matrix.to/#/#victors-kids-debian-store:matrix.org">Join the Matrix Community</a></li>
-                <li><a href="https://github.com/VictorLovesOwls">View Source Code on GitHub</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-<div style="background: #e8f0fe; border-left: 5px solid #1a73e8; padding: 15px; margin-bottom: 20px;">
-    <strong>🛡️ School Firewall Proxy:</strong> 
-    This mirror which is https://victorlovesowls.github.io/ is optimized for access on restricted networks (Schools). 
-    <br>
-    <small><i>Note: This version may be some time behind the main store.</i></small>
-    <br>
-    <a href="https://victor-delgashev.neocities.org/" style="color: #1a73e8; font-weight: bold;">Click here for the Main Store (Unrestricted Networks only)</a>
-</div>
-<div style="background: #1a1a1a; border: 2px solid #ff0055; color: #00ff00; padding: 20px; font-family: 'Courier New', monospace; border-radius: 10px; margin: 20px 0; box-shadow: 0 0 15px #ff0055;">
-    <h2 style="color: #ff0055; margin-top: 0; text-transform: uppercase;">🔒 School Firewall Bypass</h2>
-    <p>If this site is blocked on your school Chromebook, follow these steps:</p>
-    
-    <ol style="line-height: 1.6;">
-        <li>Open <a href="https://translate.google.com" target="_blank" style="color: #00ccff; font-weight: bold;">Google Translate</a>.</li>
-        <li>Click the <b>"Websites"</b> button at the top.</li>
-        <li>Paste this URL: <code style="background: #333; padding: 2px 5px; color: #fff;">victor-delgashev.neocities.org</code></li>
-        <li>Select <b>English</b> as the output language.</li>
-        <li>Hit the blue arrow to enter the <b>Proxy Tunnel</b>.</li>
-    </ol>
-    
-    <p style="font-size: 0.8em; color: #888;"><i>Note: This works because the school filter thinks you are just doing homework on Google!</i></p>
-</div>
 </body>
 </html>
